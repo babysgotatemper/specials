@@ -1,29 +1,69 @@
-i {
-	font-family: "fontello";
-	font-style: normal;
-	font-weight: normal;
-	speak: none;
+@import '_reset.css';
+
+body {
+	font-family: 'Segoe UI';
+	color: #0f0c09;
+	font-size: 18px;
+}
+
+.btn {
 	display: inline-block;
-	text-decoration: inherit;
-	width: 1em;
-	margin-right: .2em;
-	text-align: center;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1em;
-	margin-left: .2em;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-decoration: none;
-	color: inherit;
+	color: #ffffff;
+	font-weight: 700;
+	text-align: left;
+	width: 245px;
+	height: 50px;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	margin-top: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	box-sizing: border-box;
+	width: 1280px;
+	padding: 40px 0 40px 240px;
+	margin: auto;
+	height: 560px;
+}
+
+.container {
+	box-sizing: border-box;
+	background: url(../img/bg-container.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 55px;
+}
+
+.section__title {
+	max-width: 700px;
+	font-size: 72px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.section__text {
+	font-weight: 300;
+	text-align: justify;
+	max-width: 345px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.social__link {
+	display: block;
+	margin: 25px 0;
 }
 
 //@media (max-width: 1280px) {}
-
 //@media (max-width: 1024px) {}
-
 //@media (max-width: 768px) {}
-
 //@media (max-width: 640px) {}
-
 //@media (max-width: 480px) {}
