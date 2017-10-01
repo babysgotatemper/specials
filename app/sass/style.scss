@@ -6,8 +6,22 @@ body {
     font-family: 'Segoe UI';
     color: #0f0c09;
     font-size: 18px;
+    min-width: $width;
 }
 
+.wrap {
+        width: $width;
+    margin: 65px auto;
+    position: relative;
+}
+.scroll__slide{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*main styles*/
 .btn {
     display: inline-block;
     color: #ffffff;
@@ -80,7 +94,7 @@ aside {
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-620px, -311px);
+    transform: translate(-620px, -253px);
 }
 
 .partners {
